@@ -1,0 +1,99 @@
+
+
+
+
+
+
+ .content{
+
+ 
+    /* border:  5px solid red; */
+    /* background-color: aqua; */
+height: 600px;
+width: 656px;
+display: flex;
+/* justify-content: center; */
+/* align-items: center; */
+/* text-align: center; */
+/* margin-left: 150px; */
+flex-wrap: wrap;
+margin: auto;
+ }
+
+
+ .even{
+    border:  1px solid rgb(12, 12, 12);
+    background-color: black;
+height: 74px;
+width: 80px;
+ }
+.even>img{
+height: 70px;
+width: 70px;
+}
+ .odd{
+    border:  1px solid rgb(255, 255, 255);
+    height: 5px;
+    width: 80px;
+ }
+.odd>img{
+    height: 70px;
+width: 70px;
+
+}
+ .a{
+    display: flex;
+    margin-top: -525px;
+    margin-left: 172px;
+    transition-timing-function: linear;
+    transition-duration: 10s;
+ }
+.a :hover{
+    /* transform: translate(40px,40px); */
+}
+ .b{
+    display: flex;
+    margin-left: 172px;
+ }
+.c{
+    display: flex;
+     margin-left: 172px;
+}
+
+.d{
+    display: flex;
+    margin-left: 172px; 
+}
+.e{
+    display: flex;
+    margin-left: 172px; 
+}
+.f{
+    display: flex;
+    margin-left: 172px; 
+}
+
+
+@keyframes all{
+    from {
+       
+        transform: rotate(0deg);
+       
+    }
+
+    to {
+         
+        transform: rotate(360deg);
+      
+     
+    }
+}
+
+img {
+
+
+    animation-name: all;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   
+}
